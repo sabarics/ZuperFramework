@@ -68,7 +68,8 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
             }
         }
 ```
-        
+   
+ ### Get Jobs Postdata  
  |   Key        | Values        | Data Type
  | ------------ | ------------- | ------------
  | keyword | Any Text that may contain JobName and No etc. | String
