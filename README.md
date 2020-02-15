@@ -21,10 +21,23 @@ pod 'ZuperKit'
 ```
 ## Features
 
-- [x] Get Jobs
-            - [x] Add Sort & Filter
-
-
+- Jobs
+  - Sort & Filter
+  - Pagination 
+  
+- Job Details
+  - Job Notes
+  - Activities
+  - New Job Note
+  
+- Customers
+  - Sort & Filter
+  - Pagination 
+  
+- Customer Details
+  - Customer Notes
+  - Customer Jobs
+  
 Easy to use
 ----
 
