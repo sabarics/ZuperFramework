@@ -19,6 +19,11 @@ ZuperFramework written in Swift. You can access `Zuper API` using this `Zuper Fr
 ```ruby
 pod 'ZuperKit'
 ```
+## Features
+
+- [x] Get Jobs
+            - [x] Add Sort & Filter
+
 
 Easy to use
 ----
