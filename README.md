@@ -30,4 +30,23 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
                 print(error)
             }
         }
+        
+        
+ //Get Job Details
+ ZuperApi.getJobDetails(jodId: "Job_Uid") { (response) in
+            switch response
+            {
+            case .Success(let jobResponse):
+                print(jobResponse)
+                
+            case .ApiError(let apiError):
+                if let message = apiError["message"]
+                {
+                    print(message)
+                }
+                
+            case .Error(let error):
+                print(error)
+            }
+        }
 
