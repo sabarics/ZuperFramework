@@ -13,7 +13,7 @@ Easy to use
 Zuper.configureEndPoint(type: .staging)
 Zuper.setAuthToken(token: "Your Token")
 
-
+// Get Jobs
 ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
             switch response
             {
