@@ -65,7 +65,19 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
                 print(error)
             }
         }
-        
+  Key | Values | Data Type
+  ------------ | -------------
+  keyword | Any Text that may contain JobName and No etc. | String
+  sort | ASC/DESC | String
+  sort_by | work_order_number/job_priority/scheduled_start_time | String
+  status | Job Status Name | String
+  job_status_id | Job Status UID | String
+  job_category_id | Job Category UID | String
+  tag | Job tags | String
+  from_date | 2020-02-20 | String
+  to_date | 2020-02-20 | String
+  job_priority | high,low,medium,urgent | String
+
         
  //Get Job Details
  ZuperApi.getJobDetails(jodId: "Job_Uid") { (response) in
