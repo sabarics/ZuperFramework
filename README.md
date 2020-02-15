@@ -3,6 +3,23 @@
 
 ZuperFramework written in Swift. ou can access `Zuper API` using this `Zuper Framework`, only works on iOS 11.x or above.
 
+
+## Requirements
+
+- iOS 10.0+ / macOS 10.12+ / tvOS 10.0+ / watchOS 3.0+
+- Xcode 10.2+
+- Swift 5+
+
+## Installation
+
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+pod 'ZuperKit'
+```
+
 Easy to use
 ----
 
