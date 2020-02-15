@@ -1,12 +1,12 @@
 # ZuperFramework
 
 
-ZuperFramework written in Swift. ou can access `Zuper API` using this `Zuper Framework`, only works on iOS 11.x or above.
+ZuperFramework written in Swift. You can access `Zuper API` using this `Zuper Framework`, only works on iOS 11.x or above.
 
 
 ## Requirements
 
-- iOS 10.0+ / macOS 10.12+ / tvOS 10.0+ / watchOS 3.0+
+- iOS 10.0+ 
 - Xcode 10.2+
 - Swift 5+
 
