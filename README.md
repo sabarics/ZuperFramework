@@ -6,7 +6,7 @@ ZuperFramework written in Swift. You can access `Zuper API` using this `Zuper Fr
 
 ## Requirements
 
-- iOS 10.0+ 
+- iOS 11.0+ 
 - Xcode 10.2+
 - Swift 5+
 
