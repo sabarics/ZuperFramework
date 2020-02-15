@@ -41,7 +41,7 @@ pod 'ZuperKit'
 Easy to use
 ----
 
-### Get Started
+### Get Started - Examples
 
 ```swift
 // Get started
