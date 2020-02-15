@@ -44,8 +44,10 @@ Easy to use
 ### Get Started - Examples
 
 ```swift
-// Get started
+// Congifure endpoint.(live/staging)
 Zuper.configureEndPoint(type: .staging)
+
+// Set access token
 Zuper.setAuthToken(token: "Your Token")
 
 // Get Jobs
@@ -65,6 +67,8 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
                 print(error)
             }
         }
+```
+        
     Key        | Values        | Data Type
   ------------ | ------------- | ------------
   keyword | Any Text that may contain JobName and No etc. | String
@@ -78,7 +82,7 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
   to_date | 2020-02-20 | String
   job_priority | high,low,medium,urgent | String
 
-        
+  ```swift      
  //Get Job Details
  ZuperApi.getJobDetails(jodId: "Job_Uid") { (response) in
             switch response
@@ -96,4 +100,5 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
                 print(error)
             }
         }
+```
 
