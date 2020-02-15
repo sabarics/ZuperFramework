@@ -65,7 +65,7 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
                 print(error)
             }
         }
-  Key | Values | Data Type
+    Key        | Values        | Data Type
   ------------ | ------------- | ------------
   keyword | Any Text that may contain JobName and No etc. | String
   sort | ASC/DESC | String
