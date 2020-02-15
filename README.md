@@ -66,7 +66,7 @@ ZuperApi.getJobs(pageNo: 1, count: 10, postData: [:]) { (response) in
             }
         }
   Key | Values | Data Type
-  ------------ | -------------
+  ------------ | ------------- | ------------
   keyword | Any Text that may contain JobName and No etc. | String
   sort | ASC/DESC | String
   sort_by | work_order_number/job_priority/scheduled_start_time | String
